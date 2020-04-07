@@ -7,9 +7,7 @@ In particular, we use some functions for all algorithms :
 - *gradreg*, which return the gradient of the regularized hinge loss
 - *hinge_reg_sgd* and *grad_reg_sgd*, same functions for stochastic case
 
+Algorithms we use are : Gradient descent (projected or not), Stochastic gradient descent (projected or not), Adagrad, Exponentiated gradient, Online Newton Step, Stochastic mirror descent, Online Smooth Projection Free and Sampled Follow the Perturbated Leader. Files **`Comparaison-accuracy-time.ipynb`** and **`Comparaison-time-limited.ipynb`** compare all algorithms with different criterion.
 
-Here is all algorithms we use : 
 
-  - **`nom_du_fichier.ipynb`** : classical stochastic gradient descent (2 versions, with or without projection step)
-  - **`nom_du_fichier.ipynb`** : 222
-  - **`nom_du_fichier.ipynb`** : 22
+Dataset is available [here](https://pjreddie.com/projects/mnist-in-csv/) (note that there aren't scaled). 
